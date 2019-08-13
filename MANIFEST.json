@@ -1,0 +1,32 @@
+{
+    "collection_info": {
+        "namespace": "gavinfish",
+        "name": "azuretest",
+        "version": "1.0.2",
+        "license": [
+            "MIT"
+        ],
+        "description": null,
+        "repository": null,
+        "documentation": null,
+        "homepage": null,
+        "issues": null,
+        "authors": [
+            "azure"
+        ],
+        "tags": [
+            "test"
+        ],
+        "license_file": null,
+        "readme": "README.md",
+        "dependencies": {}
+    },
+    "file_manifest_file": {
+        "name": "FILES.json",
+        "ftype": "file",
+        "chksum_type": "sha256",
+        "chksum_sha256": "434ff98c78e4cd04d1c68510f22bcd119f2029a659933eaa537c1bd2f187237e",
+        "format": 1
+    },
+    "format": 1
+}

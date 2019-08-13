@@ -1,0 +1,16 @@
+authors:
+  - "azure"
+dependencies:
+description:
+documentation:
+homepage:
+issues:
+license:
+  - "MIT"
+name: azuretest
+namespace: gavinfish
+readme: README.md
+repository:
+tags:
+  - "test"
+version: 1.0.2
