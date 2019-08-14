@@ -1,0 +1,12 @@
+---
+- hosts: localhost
+  tasks:
+    - name: Create first resource group
+      azure_rm_resourcegroup:
+        name: "{{ name }}"
+        location: eastus
+
+    - name: Create secondary resource group
+      azure_rm_resourcegroup:
+        name: "{{ name2 }}"
+        location: eastus
