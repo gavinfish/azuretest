@@ -14,27 +14,6 @@ env:
     - secure: "az+Lj1LcBSj0jKwtF4IOpRcOEY+dPS0S7aB3Vy66yy2pQjXdKvKQ0J8+4zS6QLrjROP1+ZcwvMESZxT4O6A7K6nBbIL5fFMzPKWR31GOql1u+bT0NiI0NaSX/sriBXqdJ/u/tTwuql9ZA6TMUewvVqbrgHofGd16zP2TXxwLiQalk1VOno6vno9cMt5a+GXBoxF/TqIPjOvYMfXosKWqS+JraEFCYKSH3YxulW+7tcOVrD4JvceiuCSNkQauDBf/3nNj9oBSJLqVvjOqNpfDFz4ykt/rss9iF5njW/GVzuBRDR4SjX/C68bImxU2Qo8V8YraWyjVg4J5Kqsf7nHTbQmsmWGCCePPO1dDyo8WEo2a+w0j4shN3B0kU4NRxu2msY4dedU1R31SQXCAXFUkGnvQ7Nu0LXrHJPThnY/v8IwN2R4BVeOI7V6iL+DajKkenhVJxNQKxVtaU+YFqDqBzu1ZFdxGMsxE5QsxtFodz4tw1DcKF6Ml2GUnnQwKDf5P5a7SiqHx0804JC6TE3Mus1VpPHuo6I7aA8BGMpTQpCQW2Y8kKw9/eZXg/pVCZBREA17yqyPYl0XaNeuGX6N+ultIld7FacUUXQRGjnqSB4iJo4TX24ZlQOwYhVrQnWSqcEwnSmvhw6HI7FS4c1aDB2KvtvEKxqPOkOBzjk4S8Ak="
     - secure: "uyP9khU6EyJENwfA6Wuio2xh7qCur0zwnj+Pra+nsY9msozG+68nYQz1oeKs8SQodmYwDpx6rtriy6w0TnR1gmtDE9JE7JPqF60oegq+m27sRVtfMnVbbuLbZf7NL8G8yFEcIha+qt06EijjpjvaTv15aHaYsmIqTckZoyulpQJf4xBNcblOGiH+Y1v6vurLbkbG0MnRuIUg2pSW48EbljuQV7VrvwGdWj61AKAjZPfDYcRq88Sg5enDdDrGv23kT+SifwdQBo8Z8rbGi+Ad1p8P6a07orrRXQGbLg+Tcu0afMH+uU81RU+o0ecMcyJVhL25ir1y+B33HlG6ZfApdSBc83boHpqmO3OFfjxMSX8IvYGey23cV+FMEhYJZmugyZACCxZGrBTeMhzJihrUmoaqTqB5ligFlmtOf3t6JvTne/08jWvLH9kOkXDXNHQrPKTy0a2vpbUdr79jn8ev0apgBTNM7jzKaUh8jvTjxC+7edJUrdxZp66DBsB7bPEvOhJroZMQpk3RMx0fpm6xWXHizkr5Hn9bHVa+8beGqrryKIN0XwROmvyj9AGyhKayYexgLvxdPIULhJMmC2m3C0RQo8ktzwfCftX7DSthz+Ypn/KUmEQmT4oFIgd4r0TOUqOh7jbX2je4ilDL7nQKpTwMEXoiRLOO4MbVgJ2ekqk="
     - secure: "hpDrSKWksX2lnsQMHyQS6X8sZD+HQ4clZlE4mJJDYv6FIys5xqaC+oKaGtTPXZqMwLwOWduQxx/US6N9m1i19gKMJSkAARFh5zNtMURbMe4xBrLN3iotgJo10X4N62pe6X/uxPD60vgSOSkpGis3nGjZiYr7YCJ6cj7orTTtF39Jp0fk6p7M4/C3y4Ug41Ffe1lYUPYKY8vlC2lXCJpIgQckOvP5BUKmU0kHRYgw/t2nzyYVvwc5s87yOtZ5H3A2ZajwcbiCpP87Axz1RPbzk8ig4ox/xMs156gts4ElK24k7/SOei79RU9wICIb0lbCWGprNK/NphYHDRmXUUya64DTk8aWGHD508B36L1bTEg6Ja6FxtgKuZCeRK9zEJWBupF1Cdu79z3jzOLbcm/wb+nXCiDVdAdJ2fapwhy9RVsKJIHQzKAmfL8WU9/m9pjSJgtBse5z9BN0g3IzkgnRxOg2EkhjPNJZyRN8IGX+XItzA1Kk90nb0Y0tjgNUxcckbLjoFGMNfAqQEHMhrKrjuKl3Rrq6N8TQsSq3xjrurv2TgquVhLula5QoMN7/XZ5lQV0j1Bo3HUZuLuw1k4uUNXWzV46m5oHTUeDxshJiK7Dl8D7afFC7p0nBMjGxJ4ebyVbNuj8nMGHekjj5fKbyx1DYpcm2DNKOt/4oSPSWhQk="
-  matrix:
-    - id=1
-    - id=2
-    - id=3
-    - id=4
-    - id=5
-    - id=6
-    - id=7
-    - id=8
-    - id=9
-    - id=10
-    - id=11
-    - id=12
-    - id=13
-    - id=14
-    - id=15
-    - id=16
-    - id=17
-    - id=18
-    - id=19
-    - id=20
 before_install:
   - create_resource_group() {
       name=$1;
