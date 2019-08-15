@@ -89,6 +89,8 @@ install:
   - pip install -r requirements.txt
   - pip install -r packaging/requirements/requirements-azure.txt
   - . hacking/env-setup
+  - git clone https://github.com/gavinfish/azuretest.git
+  - cd azuretest
   - pip freeze
   - ansible --version
 script:
