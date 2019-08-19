@@ -1,0 +1,1 @@
+# PoC of Azure collection
