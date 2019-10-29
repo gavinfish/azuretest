@@ -10,7 +10,7 @@ pool:
   vmImage: 'ubuntu-latest'
 
 steps:
-- script: 
+- script: |
     pip install wheel
     pip install ansible==v2.9.0rc5
     ansible --version
