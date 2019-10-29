@@ -19,3 +19,7 @@ steps:
 - script: |
     ansible-galaxy collection build .
   displayName: 'build collection'
+
+- script: |
+    ansible-galaxy collection publish *.tar.gz --api-key $GALAXY_KEY
+  displayName: 'publish collection'
