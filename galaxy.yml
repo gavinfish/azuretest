@@ -10,7 +10,7 @@ license:
 name: azuretest
 namespace: gavinfish
 readme: README.md
-repository:
+repository: 'https://github.com/gavinfish/azuretest'
 tags:
   - "test"
 version: 1.0.3
